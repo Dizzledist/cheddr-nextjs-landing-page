@@ -1,0 +1,86 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="124" y1="86" x2="1420" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241714"/>
+      <stop offset="0.58" stop-color="#2A1812"/>
+      <stop offset="1" stop-color="#130E0D"/>
+    </linearGradient>
+    <linearGradient id="slash" x1="770" y1="32" x2="1550" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6F1D"/>
+      <stop offset="1" stop-color="#F15A24"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="530" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A12"/>
+      <stop offset="1" stop-color="#F15A24"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="900" y1="122" x2="1440" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1E8"/>
+      <stop offset="1" stop-color="#FAD8B5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="760" rx="30" fill="url(#bg)"/>
+  <path d="M1046 -36C1212 86 1406 262 1600 580V760H714C762 556 856 370 1046 -36Z" fill="url(#slash)" opacity="0.22"/>
+  <path d="M0 560C216 612 380 654 540 760H0V560Z" fill="#556742" opacity="0.3"/>
+  <path d="M990 126L1116 80L1420 366L1292 412L990 126Z" fill="#FF7A12" opacity="0.2"/>
+  <path d="M1110 470L1280 420L1500 656L1334 710L1110 470Z" fill="#FFD447" opacity="0.12"/>
+
+  <g transform="translate(124 96)">
+    <rect width="198" height="54" rx="27" fill="#2D201C" stroke="#F15A24" stroke-width="2"/>
+    <text x="34" y="35" fill="#FFF1E8" font-size="24" font-weight="700" font-family="Arial, Helvetica, sans-serif">NEW DROP</text>
+
+    <text x="0" y="146" fill="#FFF1E8" font-size="64" font-weight="700" font-family="Arial, Helvetica, sans-serif">STACK YOUR</text>
+    <text x="0" y="272" fill="#FFD447" font-size="138" font-weight="700" font-family="Arial, Helvetica, sans-serif">SESSION</text>
+    <text x="0" y="344" fill="#FFF1E8" font-size="38" font-weight="400" font-family="Arial, Helvetica, sans-serif">
+      Flower, gummies, prerolls, concentrates and bundles.
+    </text>
+
+    <rect x="0" y="410" width="300" height="76" rx="38" fill="url(#tag)"/>
+    <text x="44" y="460" fill="#FFF1E8" font-size="30" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP THE DROP</text>
+
+    <rect x="322" y="410" width="242" height="76" rx="38" fill="#302220" stroke="#FFF1E8" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="360" y="460" fill="#FFF1E8" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">FRESH PICKS</text>
+
+    <rect x="0" y="536" width="604" height="106" rx="24" fill="#1C1513" fill-opacity="0.8" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+    <text x="34" y="585" fill="#FFB469" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">FLOWER | GUMMIES | PREROLLS</text>
+    <text x="34" y="624" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">Concentrates and bundles built into one bold, image-led landing page.</text>
+  </g>
+
+  <g transform="translate(928 114)">
+    <rect x="90" y="18" width="426" height="520" rx="44" fill="#181110" opacity="0.54"/>
+    <rect x="120" y="0" width="426" height="520" rx="44" fill="url(#panel)"/>
+    <rect x="156" y="40" width="182" height="248" rx="32" fill="#F26522"/>
+    <path d="M206 234C248 162 280 116 340 74C360 110 360 170 332 216L206 234Z" fill="#FFD447"/>
+    <path d="M182 238C228 198 252 180 310 166C322 188 322 218 300 244L182 238Z" fill="#FFB34C"/>
+    <circle cx="230" cy="266" r="14" fill="#2C201D"/>
+    <circle cx="276" cy="224" r="11" fill="#2C201D"/>
+    <circle cx="314" cy="250" r="18" fill="#2C201D"/>
+
+    <rect x="368" y="64" width="126" height="200" rx="30" fill="#2C201D"/>
+    <rect x="386" y="88" width="90" height="146" rx="18" fill="#FF7A12"/>
+    <rect x="404" y="106" width="54" height="22" rx="11" fill="#FFF1E8" fill-opacity="0.84"/>
+    <rect x="398" y="144" width="66" height="66" rx="33" fill="#FFD447"/>
+    <rect x="418" y="162" width="26" height="30" rx="13" fill="#2C201D"/>
+
+    <g transform="translate(180 328)">
+      <rect width="326" height="154" rx="34" fill="#231A18"/>
+      <rect x="28" y="34" width="190" height="32" rx="16" fill="#FFF1E8"/>
+      <rect x="28" y="84" width="160" height="24" rx="12" fill="#FAD8B5"/>
+      <rect x="228" y="30" width="54" height="90" rx="27" transform="rotate(18 228 30)" fill="#F15A24"/>
+      <rect x="262" y="14" width="54" height="100" rx="27" transform="rotate(16 262 14)" fill="#FFD447"/>
+      <rect x="292" y="28" width="54" height="92" rx="27" transform="rotate(15 292 28)" fill="#FFF1E8"/>
+    </g>
+
+    <g transform="translate(32 420)">
+      <rect width="192" height="108" rx="26" fill="#556742"/>
+      <text x="28" y="46" fill="#FFF1E8" font-size="24" font-weight="700" font-family="Arial, Helvetica, sans-serif">5 COLLECTIONS</text>
+      <text x="28" y="76" fill="#FAD8B5" font-size="20" font-weight="400" font-family="Arial, Helvetica, sans-serif">One tight homepage.</text>
+    </g>
+  </g>
+
+  <g fill="#FF9A34">
+    <path d="M148 62L156 84L178 92L156 100L148 122L140 100L118 92L140 84L148 62Z"/>
+    <path d="M1446 88L1456 116L1484 126L1456 136L1446 164L1436 136L1408 126L1436 116L1446 88Z"/>
+    <path d="M854 122L860 138L876 144L860 150L854 166L848 150L832 144L848 138L854 122Z"/>
+  </g>
+</svg>

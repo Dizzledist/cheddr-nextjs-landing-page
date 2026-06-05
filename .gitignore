@@ -1,0 +1,19 @@
+node_modules/
+.next/
+
+.next-dev.log
+.next-dev.err.log
+
+page-shot*.png
+tmp-*
+
+Thumbs.db
+.DS_Store
+
+# Original upload copies kept outside the app tree
+CheddrLogo.Outlined.webp
+cheddr-preroll-image.webp
+concentrate-image.jpeg
+flower-image.webp
+gummies-image.png
+hero-banner.jpeg

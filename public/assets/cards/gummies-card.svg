@@ -1,0 +1,34 @@
+<svg width="420" height="560" viewBox="0 0 420 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gummyBg" x1="24" y1="18" x2="402" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A1A16"/>
+      <stop offset="0.45" stop-color="#7A3519"/>
+      <stop offset="1" stop-color="#E76625"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="404" height="544" rx="32" fill="url(#gummyBg)"/>
+  <rect x="28" y="30" width="82" height="34" rx="17" fill="#FFF1E8" fill-opacity="0.16"/>
+  <text x="48" y="53" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">02</text>
+  <text x="32" y="116" fill="#FFF1E8" font-size="54" font-weight="700" font-family="Arial, Helvetica, sans-serif">GUMMIES</text>
+  <text x="32" y="152" fill="#FFE1CD" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">Bright bites and chewy stacks.</text>
+
+  <g transform="translate(66 200)">
+    <rect x="28" y="110" width="168" height="132" rx="44" fill="#FFD447"/>
+    <rect x="78" y="140" width="68" height="72" rx="34" fill="#6B3A12"/>
+
+    <rect x="158" y="48" width="148" height="132" rx="42" fill="#FFF1E8" fill-opacity="0.88"/>
+    <rect x="202" y="78" width="60" height="72" rx="30" fill="#F15A24"/>
+
+    <rect x="0" y="30" width="120" height="116" rx="38" fill="#FF9A34"/>
+    <rect x="36" y="58" width="48" height="58" rx="24" fill="#FFF1E8" fill-opacity="0.84"/>
+
+    <circle cx="244" cy="236" r="38" fill="#2A1A16"/>
+    <circle cx="258" cy="236" r="16" fill="#FFF1E8"/>
+
+    <path d="M220 226C214 198 196 174 172 162C194 132 222 116 264 108C286 134 292 166 284 204L220 226Z" fill="#556742"/>
+  </g>
+
+  <rect x="32" y="478" width="188" height="46" rx="23" fill="#2A1A16"/>
+  <text x="64" y="508" fill="#FFF1E8" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP GUMMIES</text>
+</svg>

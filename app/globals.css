@@ -1,0 +1,368 @@
+:root {
+  --bg-deep: #120d0c;
+  --bg-panel: #1d1412;
+  --primary-orange: #f26522;
+  --menu-orange: #f15a24;
+  --hero-orange: #ff6f1d;
+  --cta-orange: #ff7a12;
+  --warm-cream: #fff1e8;
+  --soft-yellow: #ffd447;
+  --olive: #556742;
+  --line: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+  color: #2a1a16;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.pageShell {
+  min-height: 100vh;
+  position: relative;
+  background: #ffffff;
+}
+
+.pageShell::before {
+  content: none;
+}
+
+.ageGate {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(35, 26, 24, 0.92);
+}
+
+.ageGatePanel {
+  width: min(480px, 100%);
+  padding: 34px 28px 28px;
+  border: 2px solid var(--menu-orange);
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow: 0 26px 60px rgba(18, 13, 12, 0.28);
+  text-align: center;
+}
+
+.ageGateLogo {
+  width: min(220px, 48vw);
+  margin: 0 auto 20px;
+}
+
+.ageGateTitle {
+  margin: 0;
+  color: #2a1a16;
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 700;
+  line-height: 1.02;
+}
+
+.ageGateActions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.ageGateButton {
+  min-height: 58px;
+  padding: 12px 18px;
+  border: 2px solid var(--menu-orange);
+  border-radius: 999px;
+  font: inherit;
+  font-size: 21px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    opacity 180ms ease;
+}
+
+.ageGateButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(241, 90, 36, 0.18);
+}
+
+.ageGateButtonPrimary {
+  background: var(--menu-orange);
+  color: #ffffff;
+}
+
+.ageGateButtonSecondary {
+  background: #ffffff;
+  color: var(--menu-orange);
+}
+
+.contentWrap {
+  width: min(1500px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.masthead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px 40px;
+  padding: 24px 0 18px;
+}
+
+.brandMark {
+  position: relative;
+  width: clamp(84px, 10vw, 128px);
+  aspect-ratio: 1.78 / 1;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.brandImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.16);
+  transform-origin: center center;
+}
+
+.menuBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px 18px;
+  align-items: center;
+}
+
+.menuItem {
+  display: inline-flex;
+  align-items: center;
+  transition:
+    transform 160ms ease,
+    opacity 160ms ease;
+}
+
+.menuItem:hover {
+  opacity: 0.92;
+  transform: translateY(-2px);
+}
+
+.menuImage {
+  width: auto;
+  height: clamp(32px, 3vw, 42px);
+}
+
+.heroBand {
+  padding: 10px 0 0;
+}
+
+.heroFrame {
+  display: block;
+  width: min(100%, 1280px);
+  margin: 0 auto;
+  aspect-ratio: 1280 / 512;
+  overflow: hidden;
+  border-radius: 28px;
+}
+
+.heroLink {
+  cursor: pointer;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 49%;
+}
+
+.footerImage {
+  width: 100%;
+  height: auto;
+}
+
+.collectionsBand {
+  padding: 28px 0 42px;
+}
+
+.collectionGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.collectionCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  aspect-ratio: 420 / 560;
+  padding: 18px 16px 16px;
+  background: #ffffff;
+  border: 2px solid var(--menu-orange);
+  border-radius: 20px;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.collectionCard:focus-visible {
+  outline: 3px solid rgba(241, 90, 36, 0.3);
+  outline-offset: 4px;
+}
+
+.collectionCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(241, 90, 36, 0.12);
+}
+
+.collectionTitle {
+  margin: 0 0 10px;
+  color: var(--menu-orange);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.collectionMedia {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0 16px;
+  overflow: hidden;
+}
+
+.collectionImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.collectionCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: var(--menu-orange);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.footerBand {
+  padding: 0 0 40px;
+}
+
+.footerImage {
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 1280px) {
+  .collectionGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .contentWrap {
+    width: min(100% - 24px, 1400px);
+  }
+
+  .masthead {
+    align-items: flex-start;
+  }
+
+  .menuBar {
+    justify-content: flex-start;
+  }
+
+  .collectionGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .ageGatePanel {
+    padding: 28px 20px 20px;
+    border-radius: 22px;
+  }
+
+  .ageGateActions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ageGateButton {
+    min-height: 54px;
+    font-size: 19px;
+  }
+
+  .masthead {
+    padding-top: 18px;
+  }
+
+  .brandMark {
+    width: min(27vw, 112px);
+  }
+
+  .menuBar {
+    gap: 10px 14px;
+  }
+
+  .menuImage {
+    height: 28px;
+  }
+
+  .collectionGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .collectionCard {
+    aspect-ratio: auto;
+    min-height: 460px;
+  }
+
+  .footerImage {
+    border-radius: 18px;
+  }
+}

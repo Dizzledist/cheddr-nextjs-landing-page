@@ -1,0 +1,65 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="640" rx="28" fill="#231A18"/>
+
+  <g transform="translate(58 70)">
+    <path d="M88 14C124 12 154 28 166 52C146 62 136 84 140 106C104 112 82 134 74 170C46 162 26 140 26 112C26 90 36 70 58 58C54 34 64 20 88 14Z" fill="#FFD447" stroke="#F15A24" stroke-width="8"/>
+    <circle cx="70" cy="98" r="9" fill="#2A1A16"/>
+    <circle cx="114" cy="126" r="12" fill="#2A1A16"/>
+    <circle cx="126" cy="78" r="7" fill="#2A1A16"/>
+    <path d="M18 18L24 32L38 38L24 44L18 58L12 44L-2 38L12 32L18 18Z" fill="#FF9A34"/>
+    <path d="M182 26L190 44L208 52L190 60L182 78L174 60L156 52L174 44L182 26Z" fill="#FF9A34"/>
+    <path d="M12 196L18 210L32 216L18 222L12 236L6 222L-8 216L6 210L12 196Z" fill="#FF9A34"/>
+  </g>
+
+  <g transform="translate(270 74)">
+    <text x="0" y="0" fill="#F26522" font-size="32" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP</text>
+    <text x="0" y="60" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Flower</text>
+    <text x="0" y="108" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Prerolls</text>
+    <text x="0" y="156" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Concentrates</text>
+    <text x="0" y="204" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; D9 Gummies</text>
+    <text x="0" y="252" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Bundles</text>
+    <text x="0" y="300" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Best Sellers</text>
+  </g>
+
+  <g transform="translate(584 74)">
+    <text x="0" y="0" fill="#F26522" font-size="32" font-weight="700" font-family="Arial, Helvetica, sans-serif">ABOUT</text>
+    <text x="0" y="60" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; About Us</text>
+    <text x="0" y="108" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Contact Us</text>
+    <text x="0" y="156" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Blog</text>
+  </g>
+
+  <g transform="translate(860 74)">
+    <text x="0" y="0" fill="#F26522" font-size="32" font-weight="700" font-family="Arial, Helvetica, sans-serif">INFO</text>
+    <text x="0" y="60" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Lab Reports</text>
+    <text x="0" y="108" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; FDA Disclaimer</text>
+    <text x="0" y="156" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Privacy Policy</text>
+    <text x="0" y="204" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">&#8226; Refund Policy</text>
+  </g>
+
+  <g transform="translate(1168 74)">
+    <text x="0" y="0" fill="#F26522" font-size="32" font-weight="700" font-family="Arial, Helvetica, sans-serif">EMAIL</text>
+    <text x="0" y="56" fill="#FFF1E8" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">Email</text>
+    <rect x="0" y="74" width="308" height="66" rx="14" fill="#F1ECE8" stroke="#F15A24" stroke-width="2"/>
+    <rect x="0" y="158" width="308" height="68" rx="14" fill="#FF7A12"/>
+    <text x="110" y="202" fill="#FFF1E8" font-size="26" font-weight="700" font-family="Arial, Helvetica, sans-serif">SUBMIT</text>
+  </g>
+
+  <g transform="translate(58 396)">
+    <rect width="1484" height="196" rx="24" fill="#2D2321" stroke="#3B2E2A" stroke-width="2"/>
+    <text x="742" y="54" text-anchor="middle" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      The statements made regarding these products have not been evaluated by the Food and Drug Administration.
+    </text>
+    <text x="742" y="84" text-anchor="middle" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      The efficacy of these products has not been confirmed by FDA-approved research.
+    </text>
+    <text x="742" y="114" text-anchor="middle" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      These products are not intended to diagnose, treat, cure or prevent any disease.
+    </text>
+    <text x="742" y="152" text-anchor="middle" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      This product is not available for shipment to the following states: Arkansas, Hawaii, Idaho, Kansas,
+    </text>
+    <text x="742" y="180" text-anchor="middle" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      Louisiana, Minnesota, Oklahoma, Oregon, Rhode Island, Utah and Vermont.
+    </text>
+  </g>
+</svg>

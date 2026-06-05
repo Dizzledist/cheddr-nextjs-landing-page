@@ -1,0 +1,33 @@
+<svg width="420" height="560" viewBox="0 0 420 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bundleBg" x1="20" y1="20" x2="410" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#281915"/>
+      <stop offset="0.48" stop-color="#5B371B"/>
+      <stop offset="1" stop-color="#F15A24"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="404" height="544" rx="32" fill="url(#bundleBg)"/>
+  <rect x="28" y="30" width="82" height="34" rx="17" fill="#FFF1E8" fill-opacity="0.16"/>
+  <text x="48" y="53" fill="#FFF1E8" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">05</text>
+  <text x="32" y="116" fill="#FFF1E8" font-size="54" font-weight="700" font-family="Arial, Helvetica, sans-serif">BUNDLES</text>
+  <text x="32" y="152" fill="#FFE1CD" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">Stack the lineup and save room.</text>
+
+  <g transform="translate(58 194)">
+    <path d="M42 112L150 48L262 112L150 174L42 112Z" fill="#FFD447"/>
+    <path d="M42 112V226L150 290V174L42 112Z" fill="#E46624"/>
+    <path d="M262 112V226L150 290V174L262 112Z" fill="#FAD8B5"/>
+    <path d="M150 48V174" stroke="#2A1A16" stroke-width="10" stroke-linecap="round"/>
+
+    <circle cx="84" cy="118" r="34" fill="#FFF1E8"/>
+    <circle cx="84" cy="118" r="14" fill="#F15A24"/>
+
+    <rect x="194" y="82" width="116" height="136" rx="24" fill="#2A1A16"/>
+    <rect x="214" y="102" width="76" height="96" rx="18" fill="#FF7A12"/>
+    <rect x="228" y="118" width="48" height="18" rx="9" fill="#FFF1E8" fill-opacity="0.88"/>
+    <rect x="224" y="148" width="56" height="30" rx="15" fill="#FFD447"/>
+  </g>
+
+  <rect x="32" y="478" width="190" height="46" rx="23" fill="#2A1A16"/>
+  <text x="66" y="508" fill="#FFF1E8" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP BUNDLES</text>
+</svg>
