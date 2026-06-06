@@ -6,13 +6,6 @@ const AGE_GATE_STORAGE_KEY = "cheddr-age-verified";
 
 const navItems = [
   {
-    label: "Home",
-    href: "https://cheddr.co",
-    src: "/assets/nav/home.svg",
-    width: 124,
-    height: 56,
-  },
-  {
     label: "Flower",
     href: "https://cheddr.co/collections/thca-flower",
     src: "/assets/nav/flower.svg",

@@ -310,11 +310,34 @@ img {
   }
 
   .masthead {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .brandMark {
+    margin-inline: auto;
   }
 
   .menuBar {
-    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .menuBar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menuImage {
+    height: clamp(14px, 3.6vw, 22px);
   }
 
   .collectionGrid {
@@ -338,19 +361,20 @@ img {
   }
 
   .masthead {
+    gap: 14px;
     padding-top: 18px;
   }
 
   .brandMark {
-    width: min(27vw, 112px);
+    width: min(24vw, 96px);
   }
 
   .menuBar {
-    gap: 10px 14px;
+    gap: 8px;
   }
 
   .menuImage {
-    height: 28px;
+    height: 14px;
   }
 
   .collectionGrid {
