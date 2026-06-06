@@ -324,7 +324,7 @@ img {
     width: 100%;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 8px 10px;
+    gap: 6px;
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 4px;
@@ -337,7 +337,7 @@ img {
   }
 
   .menuImage {
-    height: clamp(14px, 3.6vw, 22px);
+    height: clamp(20px, 4.2vw, 26px);
   }
 
   .collectionGrid {
@@ -346,6 +346,10 @@ img {
 }
 
 @media (max-width: 560px) {
+  .contentWrap {
+    width: min(100% - 16px, 1400px);
+  }
+
   .ageGatePanel {
     padding: 28px 20px 20px;
     border-radius: 22px;
@@ -370,11 +374,11 @@ img {
   }
 
   .menuBar {
-    gap: 8px;
+    gap: 2px;
   }
 
   .menuImage {
-    height: 14px;
+    height: 26px;
   }
 
   .collectionGrid {
