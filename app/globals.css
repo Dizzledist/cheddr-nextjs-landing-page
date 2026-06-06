@@ -388,7 +388,24 @@ img {
 
   .collectionCard {
     aspect-ratio: auto;
-    min-height: 460px;
+    min-height: 0;
+    padding: 12px 14px;
+  }
+
+  .collectionTitle {
+    margin-bottom: 0;
+  }
+
+  .collectionMedia {
+    flex: 0 0 auto;
+    min-height: auto;
+    padding: 0 0 6px;
+  }
+
+  .collectionImage {
+    width: 88%;
+    height: auto;
+    max-height: 220px;
   }
 
   .footerImage {
