@@ -47,41 +47,31 @@ const cards = [
     id: "flower",
     label: "Flower",
     href: "https://cheddr.co/collections/thca-flower",
-    src: "/assets/cards/flower-image.webp",
-    imageAlt: "Cheddr flower jar with buds spilling out",
-    cta: "SHOP FLOWER",
+    src: "/assets/cards/flower-card.svg",
   },
   {
     id: "gummies",
     label: "Gummies",
     href: "https://cheddr.co/collections/delta-9-d9-gummies",
-    src: "/assets/cards/gummies-image.png",
-    imageAlt: "Cheddr gummies jar with red gummies",
-    cta: "SHOP GUMMIES",
+    src: "/assets/cards/gummies-card.svg",
   },
   {
     id: "prerolls",
     label: "Prerolls",
     href: "https://cheddr.co/collections/thca-prerolls",
-    src: "/assets/cards/prerolls-image.webp",
-    imageAlt: "Cheddr preroll tubes with prerolls and diamonds",
-    cta: "SHOP PREROLLS",
+    src: "/assets/cards/prerolls-card.svg",
   },
   {
     id: "concentrates",
     label: "Concentrates",
     href: "https://cheddr.co/collections/thca-concentrates",
-    src: "/assets/cards/concentrates-image.jpeg",
-    imageAlt: "Cheddr concentrate jar with concentrate samples on rocks",
-    cta: "SHOP CONCENTRATES",
+    src: "/assets/cards/concentrates-card.svg",
   },
   {
     id: "bundles",
     label: "Bundles",
     href: "https://cheddr.co/collections/bundles",
-    src: "/assets/cards/bundles-image.jpeg",
-    imageAlt: "Cheddr mixed gummies lineup with multiple jars and floating gummies",
-    cta: "SHOP BUNDLES",
+    src: "/assets/cards/bundles-card.svg",
   },
 ];
 
@@ -236,21 +226,20 @@ export default function Home() {
             <div className="collectionGrid">
               {cards.map((card) => (
                 <a
+                  aria-label={`Shop ${card.label}`}
                   className="collectionCard"
                   href={card.href}
                   id={card.id}
                   key={card.id}
                 >
-                  <h3 className="collectionTitle">{card.label}</h3>
-                  <div className="collectionMedia">
-                    <img
-                      alt={card.imageAlt}
-                      className="collectionImage"
-                      loading="lazy"
-                      src={card.src}
-                    />
-                  </div>
-                  <div className="collectionCta">{card.cta}</div>
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    className="collectionCardGraphic"
+                    draggable="false"
+                    loading="lazy"
+                    src={card.src}
+                  />
                 </a>
               ))}
             </div>

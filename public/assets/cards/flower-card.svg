@@ -1,34 +1,7 @@
 <svg width="420" height="560" viewBox="0 0 420 560" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="flowerBg" x1="18" y1="30" x2="386" y2="548" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2D1C18"/>
-      <stop offset="0.55" stop-color="#261815"/>
-      <stop offset="1" stop-color="#556742"/>
-    </linearGradient>
-    <linearGradient id="flowerStem" x1="218" y1="176" x2="272" y2="388" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFD447"/>
-      <stop offset="1" stop-color="#FF7A12"/>
-    </linearGradient>
-  </defs>
-
-  <rect x="8" y="8" width="404" height="544" rx="32" fill="url(#flowerBg)"/>
-  <rect x="28" y="30" width="82" height="34" rx="17" fill="#FFF1E8" fill-opacity="0.16"/>
-  <text x="48" y="53" fill="#FFB469" font-size="18" font-weight="700" font-family="Arial, Helvetica, sans-serif">01</text>
-  <text x="32" y="116" fill="#FFF1E8" font-size="54" font-weight="700" font-family="Arial, Helvetica, sans-serif">FLOWER</text>
-  <text x="32" y="152" fill="#FAD8B5" font-size="22" font-weight="400" font-family="Arial, Helvetica, sans-serif">Whole buds and daily drivers.</text>
-
-  <g transform="translate(72 188)">
-    <path d="M134 228C132 186 120 146 100 114C132 96 162 92 198 98C190 144 174 188 152 228H134Z" fill="url(#flowerStem)"/>
-    <path d="M138 114C104 132 84 154 68 194C36 174 20 144 20 104C60 94 98 98 138 114Z" fill="#FFD447"/>
-    <path d="M152 112C194 94 232 90 272 104C270 144 252 176 220 196C204 154 182 132 152 112Z" fill="#FF7A12"/>
-    <path d="M152 128C130 92 120 60 124 20C164 12 198 22 224 50C202 88 180 116 152 128Z" fill="#FFF1E8"/>
-    <path d="M132 144C102 144 72 138 42 122C54 88 74 64 104 50C126 78 136 108 132 144Z" fill="#F15A24"/>
-    <path d="M172 144C174 106 188 76 214 50C248 60 272 82 286 122C254 138 224 144 172 144Z" fill="#FFB34C"/>
-    <circle cx="154" cy="164" r="30" fill="#2A1C18"/>
-    <circle cx="126" cy="196" r="14" fill="#2A1C18"/>
-    <circle cx="182" cy="208" r="12" fill="#2A1C18"/>
-  </g>
-
-  <rect x="32" y="478" width="176" height="46" rx="23" fill="#F15A24"/>
-  <text x="62" y="508" fill="#FFF1E8" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP FLOWER</text>
+  <rect x="1.5" y="1.5" width="417" height="557" rx="20.5" fill="#FFFFFF" stroke="#F15A24" stroke-width="3"/>
+  <text x="26" y="46" fill="#F15A24" font-size="30" font-weight="700" font-family="Arial, Helvetica, sans-serif">FLOWER</text>
+  <image href="flower-image.webp" x="28" y="74" width="364" height="332" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="24" y="482" width="372" height="48" rx="24" fill="#F15A24"/>
+  <text x="210" y="513" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">SHOP FLOWER</text>
 </svg>
