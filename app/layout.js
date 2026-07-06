@@ -29,7 +29,34 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script id="cheddr-store-click-tracking" strategy="afterInteractive">
+          {`
+            (function () {
+              function attachCheddrLinkTracking() {
+                var cheddrLinks = document.querySelectorAll(
+                  'a[href^="https://cheddr.co"], a[href^="https://www.cheddr.co"]'
+                );
+                cheddrLinks.forEach(function (link) {
+                  link.addEventListener("click", function () {
+                    gtag("event", "landing_to_store_click", {
+                      link_url: link.href,
+                      link_text: link.innerText.trim() || "Unlabeled link",
+                      landing_page: window.location.pathname
+                    });
+                  });
+                });
+              }
+              if (document.readyState === "loading") {
+                document.addEventListener("DOMContentLoaded", attachCheddrLinkTracking);
+              } else {
+                attachCheddrLinkTracking();
+              }
+            })();
+          `}
+        </Script>
+      </body>
     </html>
   );
 }
